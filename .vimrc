@@ -57,7 +57,14 @@ Plug 'drewtempelmeyer/palenight.vim'
 Plug 'morhetz/gruvbox'
 Plug 'rakr/vim-one'
 
+" Maps for cscope
+Plug 'chazy/cscope_maps'
+
 call plug#end()
 
+" Set default theme
 set background=dark
 colo gruvbox
+
+" Disable bracketed paste (0~*1~)
+set t_BE=
