@@ -30,10 +30,6 @@ Plug 'mhinz/vim-signify'
 " Quick commenting
 Plug 'tpope/vim-commentary'
 
-" Preview markdown files
-" Note: Does not seem to work properly but it is an interesting concept
-Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & yarn install'  }
-
 " Easy edit of pgp encrypted files
 Plug 'jamessan/vim-gnupg'
 
