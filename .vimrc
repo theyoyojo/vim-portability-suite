@@ -66,5 +66,5 @@ call plug#end()
 set background=dark
 colo gruvbox
 
-" Disable bracketed paste (0~*1~)
-set t_BE=
+" F2 will open/close file tree of current dir
+map <F2> :NERDTreeToggle<CR>
