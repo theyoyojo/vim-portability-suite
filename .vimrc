@@ -56,6 +56,12 @@ Plug 'rakr/vim-one'
 " Maps for cscope
 Plug 'chazy/cscope_maps'
 
+" xolox's vim script library
+Plug 'xolox/vim-misc'
+"
+" Enhanced session management
+Plug 'xolox/vim-session'
+
 call plug#end()
 
 " Set default theme
