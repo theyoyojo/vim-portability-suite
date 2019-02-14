@@ -33,4 +33,13 @@ fi
 echo "Copying over new .vimrc..."
 cp "`dirname "${BASH_SOURCE[0]}"`/.vimrc" "$HOME/.vimrc"
 
+# Make the background transparent after plugins are loaded
+if [ ! -d "$HOME/.vim/after/plugin" ]
+then
+	mkdir -p "$HOME/.vim/after/plugin"
+fi
+
+echo "Adding post-plugin activation of transparent background..."
+echo "hi Normal guibg=NONE ctermbg=NONE" > "$HOME/.vim/after/plugin/transparent.vim"
+
 exit $SUCCESS
