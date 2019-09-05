@@ -70,3 +70,5 @@ colo gruvbox
 
 " F2 will open/close file tree of current dir
 map <F2> :NERDTreeToggle<CR>
+
+let g:airline_powerline_fonts = 1
