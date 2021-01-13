@@ -58,9 +58,12 @@ Plug 'chazy/cscope_maps'
 
 " xolox's vim script library
 Plug 'xolox/vim-misc'
-"
+
 " Enhanced session management
 Plug 'xolox/vim-session'
+
+" Fuzzy file finder
+Plug 'ctrlpvim/ctrlp.vim'
 
 call plug#end()
 
