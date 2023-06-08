@@ -75,3 +75,8 @@ colo gruvbox
 map <F2> :NERDTreeToggle<CR>
 
 let g:airline_powerline_fonts = 1
+
+" remove gunk
+" https://stackoverflow.com/questions/62148994/strange-character-since-last-update-42m-in-vim
+let &t_TI = ""
+let &t_TE = ""
