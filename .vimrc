@@ -15,8 +15,6 @@ Plug 'junegunn/seoul256.vim'
 " Disctraction free editiing
 Plug 'junegunn/goyo.vim'
 
-" Autocomplete
-Plug 'Valloric/YouCompleteMe'
 
 " Reasonable default settings
 Plug 'tpope/vim-sensible'
@@ -80,3 +78,5 @@ let g:airline_powerline_fonts = 1
 " https://stackoverflow.com/questions/62148994/strange-character-since-last-update-42m-in-vim
 let &t_TI = ""
 let &t_TE = ""
+
+let g:session_autosave = 'no'
