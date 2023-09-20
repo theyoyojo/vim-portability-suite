@@ -63,6 +63,8 @@ Plug 'xolox/vim-session'
 " Fuzzy file finder
 Plug 'ctrlpvim/ctrlp.vim'
 
+Plug 'SirVer/ultisnips'
+
 call plug#end()
 
 " Set default theme
@@ -80,3 +82,6 @@ let &t_TI = ""
 let &t_TE = ""
 
 let g:session_autosave = 'no'
+
+:highlight ExtraWhitespace ctermbg=red guibg=red
+:match ExtraWhitespace /\s\+$/

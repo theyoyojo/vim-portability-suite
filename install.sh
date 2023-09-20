@@ -43,3 +43,7 @@ echo "Adding post-plugin activation of transparent background..."
 echo "hi Normal guibg=NONE ctermbg=NONE" > "$HOME/.vim/after/plugin/transparent.vim"
 
 exit $SUCCESS
+
+# NOTE:
+# :w !sudo tee %
+# save root file as non
